@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(78, 150, 192, 0.664);
+}
+
+.cabecalho{
+    background: linear-gradient(45deg, blue, rgb(82, 82, 204), rgb(156, 156, 228));
+    text-align: center;
+    width: auto;
+    height: 200px;
+
+    position: relative;
+
+}
+
+.cabecalho > h1 {
+
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-weight: bolder;
+}
+nav{
+    margin: 25px;
+}
+ul{
+    margin: 20px 20px 0 10px ;
+    text-align: right;
+    right: 15px;
+}
+
+.btn_sup{
+    
+    list-style: none;
+    margin: 25px 0 0 10px;
+    padding: 10px 15px  ;
+    background-color: blueviolet;
+    border: 1px solid rgb(226, 43, 217);
+    display: inline;
+    border-radius: 30% 5% 30% 5% ;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+hr{
+    padding:3px;
+    margin-top: 5px;
+    background-color: rgba(128, 128, 128, 0.575);
+    width: 75%;
+    border-style: none;
+    
+}
+#intro{
+    height: auto;
+    background: blue;
+    position: relative;
+}
+
+.foto{
+    width: 20%;
+    height: 90% ;
+    background-color: chocolate;
+    margin: 10px 10px auto;
+    border: 2px;
+    display: inline-block;
+    
+    
+}
+
+.apresent{
+    width: 70%;
+    height: 90%;
+    background-color: brown;
+    border: 2px;
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    padding: 15px;
+    border: 15px;
+   
+}
