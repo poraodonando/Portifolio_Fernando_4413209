@@ -16,40 +16,41 @@
 
         <nav>
             <ul>
+                <a href="../index.html"><li class="btn_sup">Inicio</li></a>
                 <a href="sobre_mim.html"><li class="btn_sup">Sobre Mim</li></a>
                 <a href="formacao.html"><li class="btn_sup">Formação</li></a>
-                <a href="portifolio.html"><li class="btn_sup">Portifólio</li></a>
                 <a href="contato.html"><li class="btn_sup">Contatos</li></a>
             </ul>
         </nav>
         
 
-    </header>
-            <hr>
-
-        <div id='intro'>
-            
-            <div class="foto">
-                
-            </div>
-            <div class="apresent"></div>
-
-        </div>
+    </header>     
         
 
     <main>
 
-        <div id="pri_proj">
+        <hr>
+            <div>
+                <fieldset>
+                <legend>Deixe seu recado aqui:</legend>
+            <form name="contato" method="POST" onsubmit="alert('Formulário enviado com sucesso!!!')" autocomplete = "on" action="meusite.com.br">
+                
+                
+                <label for="">Nome:</label> <input type="text"  name="name"/> <br>       
+                <label for="">Idade:</label> <input type="number" name="age"> <br>          
+                <label for="">E-mail: </label> <input type="email"> <br>
+                
+                <label for="">Upload: </label><input type="file" name="" id="" multiple> <br>
+                
+                <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Digite sua Mensagem aqui!"></textarea>
+                <br>
+                <button>Enviar</button> <button type="reset">Limpar</button> <br>
+            </fieldset>
+              
 
-        </div>
+               </form>
 
-        <div id="sec_proj"> 
-
-        </div>
-
-        <div id="otr_proj">
-
-        </div>
+            </div>
 
     </main>
 

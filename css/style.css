@@ -2,6 +2,7 @@ body{
     background-color: rgba(78, 150, 192, 0.664);
 }
 
+
 .cabecalho{
     background: linear-gradient(45deg, blue, rgb(82, 82, 204), rgb(156, 156, 228));
     text-align: center;
@@ -80,4 +81,30 @@ hr{
     padding: 15px;
     border: 15px;
    
+}
+div{
+    display: flex;
+
+align-items: center;
+
+justify-content: center;
+ 
+}
+img{
+    width: 40%;
+}
+fieldset{
+    text-align: center;
+    width: 200px;
+}
+li{
+    text-align: left;
+}
+
+h1,p{
+    text-align: center;
+}
+p{
+    font-weight: bold;
+    font-size: large;
 }
